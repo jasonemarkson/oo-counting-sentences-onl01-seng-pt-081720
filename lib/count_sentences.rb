@@ -27,7 +27,6 @@ class String
   end
 
   def count_sentences
-   binding.pry
    self.split(/\.|\?|\!/).collect{|sent| sent.empty?}.size
   end
 end
