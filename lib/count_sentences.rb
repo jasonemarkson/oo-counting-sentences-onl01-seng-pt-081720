@@ -28,6 +28,6 @@ class String
 
   def count_sentences
    binding.pry
-   self.split(/\.|\?|\!/).collect{|sent| sent.empty?}
+   self.split(/\.|\?|\!/).collect{|sent| sent.empty?}.size
   end
 end
